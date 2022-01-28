@@ -1,0 +1,20 @@
+progress-bar-circle:
+  version: VERSION
+  css:
+    theme:
+      css/progress.bar-circle.css: { }
+progress-bar-bar:
+  version: VERSION
+  css:
+    theme:
+      css/progress.bar-bar.css: { }
+progress-bar-colorbar:
+  version: VERSION
+  css:
+    theme:
+      css/progress.bar-colorbar.css: { }
+progress-bar-circular:
+  version: VERSION
+  css:
+    theme:
+      css/progress.bar-circular.css: { }

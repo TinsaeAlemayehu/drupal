@@ -1,0 +1,41 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_progress_bar_formatter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * Implements hook_theme().
+ */
+function custom_progress_bar_formatter_theme() {
+  return [
+    'custom-progress_bar_format_circle' => [
+      'variables' => array(
+        'state' => NULL,
+      ),
+      'template' => 'custom-progress-bar-format-circle',
+    ],
+    'custom-progress_bar_format_bar' => [
+      'variables' => array(
+        'state' => NULL,
+      ),
+      'template' => 'custom-progress-bar-format-bar',
+    ],
+    'custom-progress_bar_format_colorbar' => [
+      'variables' => array(
+        'state' => NULL,
+      ),
+      'template' => 'custom-progress-bar-format-colorbar',
+    ],
+    'custom-progress_bar_format_circular' => [
+      'variables' => array(
+        'state' => NULL,
+      ),
+      'template' => 'custom-progress-bar-format-circular',
+    ],
+  ];
+}

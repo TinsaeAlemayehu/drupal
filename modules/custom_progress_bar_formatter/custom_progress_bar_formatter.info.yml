@@ -1,0 +1,11 @@
+name: Custom Progress Bar Formatter
+type: module
+description: Modules provide a custom Progress bar field formatter from a list of progress bar types
+core_version_requirement: ^8.8.0 || ^9
+package: Field types
+
+
+# Information added by Drupal.org packaging script on 2021-07-16
+version: '1.0.0'
+project: 'custom_progress_bar_formatter'
+datestamp: 1626435750
